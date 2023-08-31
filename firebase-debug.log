@@ -1,0 +1,246 @@
+[debug] [2023-08-31T05:31:13.191Z] ----------------------------------------------------------------------
+[debug] [2023-08-31T05:31:13.194Z] Command:       E:\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-31T05:31:13.194Z] CLI Version:   12.5.2
+[debug] [2023-08-31T05:31:13.195Z] Platform:      win32
+[debug] [2023-08-31T05:31:13.195Z] Node Version:  v18.17.1
+[debug] [2023-08-31T05:31:13.196Z] Time:          Thu Aug 31 2023 10:31:13 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-08-31T05:31:13.196Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-31T05:31:13.333Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-31T05:31:13.334Z] > authorizing via signed-in user (tahamuhammad468@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\HP
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-31T05:32:31.058Z] Using project from CLI flag: project122cs
+[debug] [2023-08-31T05:32:31.061Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/project122cs [none]
+[debug] [2023-08-31T05:32:31.844Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/project122cs 200
+[debug] [2023-08-31T05:32:31.844Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/project122cs {"projectId":"project122cs","projectNumber":"165914548650","displayName":"project122cs","name":"projects/project122cs","resources":{"hostingSite":"project122cs","realtimeDatabaseInstance":"project122cs-default-rtdb"},"state":"ACTIVE","etag":"1_5c10808a-d1f8-4e8b-814d-d51ed4f8f11e"}
+[info] i  Using project project122cs (project122cs) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2023-08-31T05:33:56.528Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-08-31T05:33:56.801Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-08-31T05:33:56.802Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.3.0","browserURL":"https://www.gstatic.com/firebasejs/10.3.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.3.0/firebase.tgz"},"live":{"version":"10.3","browserURL":"https://www.gstatic.com/firebasejs/live/10.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.3/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.3.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.3.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.3.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.3.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.3.0/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.3.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.3.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.3.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.3.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.3.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.3.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.3.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.3.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.3.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.3.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.3.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\HP\Desktop\ITS\6 is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=8360928&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-08-31T05:36:00.391Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-08-31T05:36:00.391Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-08-31T05:36:02.655Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-08-31T05:36:02.655Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-08-31T05:36:02.671Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-08-31T05:36:03.392Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-08-31T05:36:03.393Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"MuhammadTaha122","id":142771361,"node_id":"U_kgDOCIKEoQ","avatar_url":"https://avatars.githubusercontent.com/u/142771361?v=4","gravatar_id":"","url":"https://api.github.com/users/MuhammadTaha122","html_url":"https://github.com/MuhammadTaha122","followers_url":"https://api.github.com/users/MuhammadTaha122/followers","following_url":"https://api.github.com/users/MuhammadTaha122/following{/other_user}","gists_url":"https://api.github.com/users/MuhammadTaha122/gists{/gist_id}","starred_url":"https://api.github.com/users/MuhammadTaha122/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MuhammadTaha122/subscriptions","organizations_url":"https://api.github.com/users/MuhammadTaha122/orgs","repos_url":"https://api.github.com/users/MuhammadTaha122/repos","events_url":"https://api.github.com/users/MuhammadTaha122/events{/privacy}","received_events_url":"https://api.github.com/users/MuhammadTaha122/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":0,"public_gists":0,"followers":0,"following":0,"created_at":"2023-08-21T04:52:25Z","updated_at":"2023-08-21T04:52:25Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":0,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as MuhammadTaha122 
+[info] 
+[debug] [2023-08-31T05:36:51.681Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-08-31T05:36:52.278Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-08-31T05:36:52.279Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-08-31T05:41:55.143Z] >>> [apiv2][query] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key type=owner
+[debug] [2023-08-31T05:41:55.805Z] <<< [apiv2][status] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key 404
+[debug] [2023-08-31T05:41:55.805Z] <<< [apiv2][body] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-08-31T05:42:07.617Z] >>> [apiv2][query] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key type=owner
+[debug] [2023-08-31T05:42:08.197Z] <<< [apiv2][status] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key 404
+[debug] [2023-08-31T05:42:08.198Z] <<< [apiv2][body] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-08-31T05:42:08.398Z] >>> [apiv2][query] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key type=owner
+[debug] [2023-08-31T05:42:08.963Z] <<< [apiv2][status] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key 404
+[debug] [2023-08-31T05:42:08.963Z] <<< [apiv2][body] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-08-31T05:42:09.247Z] >>> [apiv2][query] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key type=owner
+[debug] [2023-08-31T05:42:09.838Z] <<< [apiv2][status] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key 404
+[debug] [2023-08-31T05:42:09.838Z] <<< [apiv2][body] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-08-31T05:42:11.030Z] >>> [apiv2][query] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key type=owner
+[debug] [2023-08-31T05:42:11.537Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-08-31T05:42:11.579Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-08-31T05:42:11.582Z] <<< [apiv2][status] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key 404
+[debug] [2023-08-31T05:42:11.582Z] <<< [apiv2][body] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-08-31T05:42:12.105Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-08-31T05:42:12.105Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-08-31T05:42:12.201Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-08-31T05:42:12.201Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-08-31T05:43:43.226Z] >>> [apiv2][query] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key type=owner
+[debug] [2023-08-31T05:43:43.851Z] <<< [apiv2][status] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key 404
+[debug] [2023-08-31T05:43:43.851Z] <<< [apiv2][body] GET https://api.github.com/repos/MuhammadTaha122/project/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-08-31T05:44:20.574Z] ----------------------------------------------------------------------
+[debug] [2023-08-31T05:44:20.578Z] Command:       E:\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-31T05:44:20.578Z] CLI Version:   12.5.2
+[debug] [2023-08-31T05:44:20.579Z] Platform:      win32
+[debug] [2023-08-31T05:44:20.579Z] Node Version:  v18.17.1
+[debug] [2023-08-31T05:44:20.581Z] Time:          Thu Aug 31 2023 10:44:20 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-08-31T05:44:20.581Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-31T05:44:20.705Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-31T05:44:20.706Z] > authorizing via signed-in user (tahamuhammad468@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\HP
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-31T05:44:33.805Z] Using project from CLI flag: project122cs
+[debug] [2023-08-31T05:44:33.808Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/project122cs [none]
+[debug] [2023-08-31T05:44:34.607Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/project122cs 200
+[debug] [2023-08-31T05:44:34.607Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/project122cs {"projectId":"project122cs","projectNumber":"165914548650","displayName":"project122cs","name":"projects/project122cs","resources":{"hostingSite":"project122cs","realtimeDatabaseInstance":"project122cs-default-rtdb"},"state":"ACTIVE","etag":"1_4b3b71df-2125-4093-803d-b50c75a8c167"}
+[info] i  Using project project122cs (project122cs) 
+[info] 
+=== Database Setup
+[info] i  database: ensuring required API firebasedatabase.googleapis.com is enabled... 
+[debug] [2023-08-31T05:44:34.615Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/project122cs/services/firebasedatabase.googleapis.com [none]
+[debug] [2023-08-31T05:44:34.615Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/project122cs/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/project122cs
+[debug] [2023-08-31T05:44:36.393Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/project122cs/services/firebasedatabase.googleapis.com 200
+[debug] [2023-08-31T05:44:36.393Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/project122cs/services/firebasedatabase.googleapis.com [omitted]
+[info] +  database: required API firebasedatabase.googleapis.com is enabled 
+[info] 
+[debug] [2023-08-31T05:44:36.394Z] >>> [apiv2][query] GET https://firebasedatabase.googleapis.com/v1beta/projects/project122cs/locations/-/instances/project122cs-default-rtdb [none]
+[debug] [2023-08-31T05:44:38.131Z] <<< [apiv2][status] GET https://firebasedatabase.googleapis.com/v1beta/projects/project122cs/locations/-/instances/project122cs-default-rtdb 200
+[debug] [2023-08-31T05:44:38.132Z] <<< [apiv2][body] GET https://firebasedatabase.googleapis.com/v1beta/projects/project122cs/locations/-/instances/project122cs-default-rtdb {"name":"projects/165914548650/locations/asia-southeast1/instances/project122cs-default-rtdb","project":"projects/165914548650","databaseUrl":"https://project122cs-default-rtdb.asia-southeast1.firebasedatabase.app","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[info] 
+[info] Firebase Realtime Database Security Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2023-08-31T05:44:38.136Z] >>> [apiv2][query] GET https://project122cs-default-rtdb.asia-southeast1.firebasedatabase.app/.settings/rules.json [none]
+[debug] [2023-08-31T05:44:39.379Z] <<< [apiv2][status] GET https://project122cs-default-rtdb.asia-southeast1.firebasedatabase.app/.settings/rules.json 200
+[debug] [2023-08-31T05:44:39.380Z] <<< [apiv2][body] GET https://project122cs-default-rtdb.asia-southeast1.firebasedatabase.app/.settings/rules.json [stream]
+[info] +  Database Rules for project122cs-default-rtdb have been written to database.rules.json. 
+[info] Future modifications to database.rules.json will update Realtime Database Security Rules when you run
+[info] firebase deploy.
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2023-08-31T05:45:25.762Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-08-31T05:45:26.041Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-08-31T05:45:26.041Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.3.0","browserURL":"https://www.gstatic.com/firebasejs/10.3.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.3.0/firebase.tgz"},"live":{"version":"10.3","browserURL":"https://www.gstatic.com/firebasejs/live/10.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.3/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.3.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.3.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.3.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.3.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.3.0/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.3.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.3.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.3.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.3.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.3.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.3.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.3.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.3.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.3.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.3.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.3.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\HP\Desktop\ITS\6 is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=410603350&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-08-31T05:45:45.886Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-08-31T05:45:45.887Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-08-31T05:45:46.813Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-08-31T05:45:46.813Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-08-31T05:45:46.839Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-08-31T05:45:47.526Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-08-31T05:45:47.526Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"MuhammadTaha122","id":142771361,"node_id":"U_kgDOCIKEoQ","avatar_url":"https://avatars.githubusercontent.com/u/142771361?v=4","gravatar_id":"","url":"https://api.github.com/users/MuhammadTaha122","html_url":"https://github.com/MuhammadTaha122","followers_url":"https://api.github.com/users/MuhammadTaha122/followers","following_url":"https://api.github.com/users/MuhammadTaha122/following{/other_user}","gists_url":"https://api.github.com/users/MuhammadTaha122/gists{/gist_id}","starred_url":"https://api.github.com/users/MuhammadTaha122/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MuhammadTaha122/subscriptions","organizations_url":"https://api.github.com/users/MuhammadTaha122/orgs","repos_url":"https://api.github.com/users/MuhammadTaha122/repos","events_url":"https://api.github.com/users/MuhammadTaha122/events{/privacy}","received_events_url":"https://api.github.com/users/MuhammadTaha122/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":0,"public_gists":0,"followers":0,"following":0,"created_at":"2023-08-21T04:52:25Z","updated_at":"2023-08-21T04:52:25Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":0,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as MuhammadTaha122 
+[info] 
